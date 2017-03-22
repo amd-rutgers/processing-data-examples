@@ -1,18 +1,20 @@
 Processing Data Loading Examples
 ================================
 
-This project contains several examples of how to load data into Processing. The first example shows how to load one-dimensional data from a single text file, the rest show how to load two-dimensional data. 
+This project contains several examples of how to load data into Processing. The first example shows how to load one-dimensional data from a single text file, the rest show how to load two-dimensional data*. 
 
-1. Single text files
-2. Multiple text files
-2. Multiple text files in an array
+1. [Single text files](single_txt_file/)
+2. [Multiple text files](multiple_txt_files/)
+2. [Multiple text files in an array](multiple_txt_files_array/)
 3. Single CSV file
 4. Single XML file
 5. Single JSON file
 
-One-dimensional data is data that can be fit into one column or row in a spreadsheet, two-dimensional data will take up more than one row/column in a spreadsheet. The sample data I'm using is below:
+The sample data I'm using is below:
 
-## Times I check the news throughout the day
+## Data source
+
+Times I check the news throughout the day.
 
 | Date | 12am-6am | 6am-12pm | 12pm-6pm | 6pm-12am | Total |
 |-----|----------|----------|----------|----------|-------|
@@ -24,14 +26,5 @@ One-dimensional data is data that can be fit into one column or row in a spreads
 | 3/10 | 1 | 0 | 3 | 1 | 5 |
 | 3/11 | 0 | 1 | 1 | 0 | 2 |
 
-# Single text file
 
-# Multiple text files
-
-# Multiple text files in array
-
-# Single CSV file
-
-# Single XML file
-
-# Single JSON file
+* One-dimensional data is data that can be fit into one column or row in a spreadsheet, two-dimensional data will take up more than one row/column in a spreadsheet. 
