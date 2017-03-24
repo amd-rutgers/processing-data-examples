@@ -1,30 +1,65 @@
 PFont font;
 Table data;
 
+int DOT_SIZE = 50;
+
+color c1 = color(255, 0, 255);
+color c2 = color(0, 255, 255);
+color c3 = color(255, 255, 0);
+color c4 = color(255, 0, 0);
+
 void setup() {
  size(500, 500);
  background(255);
  fill(0);
  noStroke();
   
-  font = loadFont("Helvetica-Bold-20.vlw");
   data = loadTable("data.csv", "header");
-  
-  textFont(font);
-  
+    
+  // row height
   float h = height/data.getRowCount();
-  int columnCount = data.getColumnCount();
   
+  // iterate through rows in CSV file
   for (TableRow row : data.rows()) {
+ 
+    int early_morning = row.getInt("12am-6am");
+    int morning = row.getInt("6am-12pm");
+    int afternoon = row.getInt("12pm-6pm");
+    int evening = row.getInt("6pm-12am");
+
     
-    // skipping first and last column,
-    // which are "Date" and "Total"
-    for(int i = 1; i < columnCount-1; i++) {
-      println(row.getFloat(i));
-    }
+    pushMatrix();
     
+      // draw dots for early morning
+      fill(c1);
+      for(int i=0; i<early_morning; i++) {
+        ellipse(DOT_SIZE/2, DOT_SIZE/2, DOT_SIZE, DOT_SIZE); 
+        translate(DOT_SIZE, 0);
+      }
+      
+      // draw dots for morning
+      fill(c2);
+      for(int i=0; i<morning; i++) {
+        ellipse(DOT_SIZE/2, DOT_SIZE/2, DOT_SIZE, DOT_SIZE); 
+        translate(DOT_SIZE, 0);
+      }
+      
+      // draw dots for afternoon
+      fill(c3);
+      for(int i=0; i<afternoon; i++) {
+        ellipse(DOT_SIZE/2, DOT_SIZE/2, DOT_SIZE, DOT_SIZE); 
+        translate(DOT_SIZE, 0);
+      }
+      
+      // draw dots for evening
+      fill(c4);
+      for(int i=0; i<evening; i++) {
+        ellipse(DOT_SIZE/2, DOT_SIZE/2, DOT_SIZE, DOT_SIZE); 
+        translate(DOT_SIZE, 0);
+      }
+    popMatrix();
     
-    text(row.getString("Date"), 0, 20);
+    // move to next row
     translate(0, h);
   }
 }
