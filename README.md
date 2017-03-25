@@ -21,20 +21,20 @@ The dataset I'm using in these examples counts the number of times I read the ne
 
 ## Examples
 
+### [Single text file](A_single_txt_file/)
 [![screengrab](A_single_txt_file/sketch.png)](A_single_txt_file/)
-[Single text file](A_single_txt_file/)
 
+### [Multiple text files](B_multiple_txt_files/)
 [![screengrab](B_multiple_txt_files/sketch.png)](B_multiple_txt_files/)
-[Multiple text files](B_multiple_txt_files/)
 
+### [Multiple text files in an array](C_multiple_txt_files_array/)
 [![screengrab](C_multiple_txt_files_array/sketch.png)](C_multiple_txt_files_array/)
-[Multiple text files in an array](C_multiple_txt_files_array/)
 
+### [Single CSV file](D_csv_file/)
 [![screengrab](D_csv_file/sketch.png)](D_csv_file/)
-[Single CSV file](D_csv_file/)
 
+### [Single XML file](E_xml_file/)
 [![screengrab](E_xml_file/sketch.png)](E_xml_file/)
-[Single XML file](E_xml_file/)
 
+### [Single JSON file](F_json_file/)
 [![screengrab](F_json_file/sketch.png)](F_json_file/)
-[Single JSON file](F_json_file/)
