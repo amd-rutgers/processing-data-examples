@@ -5,7 +5,7 @@ Loading structured data from an `.xml` file.
 
 ![screenshot](sketch.png)
 
-`data.xml`
+Data
 -----------
 
 ```xml

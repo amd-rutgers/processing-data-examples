@@ -5,8 +5,10 @@ Loading one-dimensional data from a single `.txt` file.
 
 ![screenshot](sketch.png)
 
-`data.txt`
+Data
 ----------
+
+Each line contains the total count for a single day.
 
 ```
 8

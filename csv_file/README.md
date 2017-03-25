@@ -5,7 +5,7 @@ Loading spreadsheet data from a `.csv` file.
 
 ![screenshot](sketch.png)
 
-`data.csv`
+Data
 ----------
 
 ```csv
