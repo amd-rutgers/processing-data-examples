@@ -80,47 +80,31 @@ void setup() {
   strokeWeight(2);
   
   stroke(c1);
-  beginShape();
-   for(int i=0; i < days.length; i++) {
-     float count = days[i].getChild("early_morning").getFloatContent();
+  drawLineChart(days, "early_morning");
+  
+  
+  
+  stroke(c2);
+  drawLineChart(days, "morning");
+    
+  
+  stroke(c3);
+  drawLineChart(days, "afternoon");
+
+  
+  stroke(c4);
+  drawLineChart(days, "evening");
+
+}
+
+void drawLineChart(XML[] array, String time) {
+   beginShape();
+   for(int i=0; i < array.length; i++) {
+     float count = array[i].getChild(time).getFloatContent();
      vertex(
-       map(i, 0, days.length-1, 0, width),
+       map(i, 0, array.length-1, 0, width),
        map(count, 0, 6, height, height/2)
      );
    }
   endShape();  
-  
-  
-  stroke(c2);
-  beginShape();
-   for(int i=0; i < days.length; i++) {
-     float count = days[i].getChild("morning").getFloatContent();
-     vertex(
-       map(i, 0, days.length-1, 0, width),
-       map(count, 0, 6, height, height/2)
-     );
-   }
-  endShape();    
-  
-  stroke(c3);
-  beginShape();
-   for(int i=0; i < days.length; i++) {
-     float count = days[i].getChild("afternoon").getFloatContent();
-     vertex(
-       map(i, 0, days.length-1, 0, width),
-       map(count, 0, 6, height, height/2)
-     );
-   }
-  endShape(); 
-  
-  stroke(c4);
-  beginShape();
-   for(int i=0; i < days.length; i++) {
-     float count = days[i].getChild("evening").getFloatContent();
-     vertex(
-       map(i, 0, days.length-1, 0, width),
-       map(count, 0, 6, height, height/2)
-     );
-   }
-  endShape(); 
 }
