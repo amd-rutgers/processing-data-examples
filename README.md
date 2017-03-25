@@ -1,14 +1,9 @@
 Processing Data Loading Examples
 ================================
 
-This project contains several examples of how to load data into Processing. The first example shows how to load one-dimensional data from a single text file, the rest show how to load two-dimensional data<sup>1</sup>. 
+This project contains several examples of how to load data into Processing. The first example shows how to load one-dimensional data from a single text file, the rest show how to load two-dimensional data<sup>*</sup>. 
 
-1. [Single text file](A_single_txt_file/)
-2. [Multiple text files](B_multiple_txt_files/)
-3. [Multiple text files in an array](C_multiple_txt_files_array/)
-4. [Single CSV file](D_csv_file/)
-5. [Single XML file](E_xml_file/)
-6. [Single JSON file](F_json_file/)
+<small>* One-dimensional data is data that can be fit into one column or row in a spreadsheet, two-dimensional data will take up more than one row/column in a spreadsheet.</small>
 
 ## Data
 
@@ -24,7 +19,22 @@ The dataset I'm using in these examples counts the number of times I read the ne
 | 3/10 | 1 | 0 | 3 | 1 | 5 |
 | 3/11 | 0 | 1 | 1 | 0 | 2 |
 
+## Examples
 
----
+[![screengrab](A_single_txt_file/sketch.png)](A_single_txt_file/)
+[Single text file](A_single_txt_file/)
 
-<small>1. One-dimensional data is data that can be fit into one column or row in a spreadsheet, two-dimensional data will take up more than one row/column in a spreadsheet.</small>
+[![screengrab](B_multiple_txt_files/sketch.png)](B_multiple_txt_files/)
+[Multiple text files](B_multiple_txt_files/)
+
+[![screengrab](C_multiple_txt_files_array/sketch.png)](C_multiple_txt_files_array/)
+[Multiple text files in an array](C_multiple_txt_files_array/)
+
+[![screengrab](D_csv_file/sketch.png)](D_csv_file/)
+[Single CSV file](D_csv_file/)
+
+[![screengrab](E_xml_file/sketch.png)](E_xml_file/)
+[Single XML file](E_xml_file/)
+
+[![screengrab](F_json_file/sketch.png)](F_json_file/)
+[Single JSON file](F_json_file/)
