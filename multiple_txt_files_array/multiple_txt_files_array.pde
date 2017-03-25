@@ -34,5 +34,7 @@ void setup() {
    }
     
  }
+ 
+ save("sketch.png");
   
 }

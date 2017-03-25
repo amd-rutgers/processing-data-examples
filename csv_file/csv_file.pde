@@ -62,4 +62,7 @@ void setup() {
     // move to next row
     translate(0, h);
   }
+  
+  
+  save("sketch.png");
 }

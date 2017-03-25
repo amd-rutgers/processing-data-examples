@@ -16,4 +16,5 @@ void setup() {
     rect(0, y, w, h-5);
   }
   
+  save("sketch.png");
 }

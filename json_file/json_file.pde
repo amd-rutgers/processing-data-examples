@@ -100,6 +100,8 @@ void setup() {
   stroke(evening_color);
   drawLineChart(evening_values);
 
+
+  save("sketch.png");
 }
 
 void drawLineChart(int[] array) {

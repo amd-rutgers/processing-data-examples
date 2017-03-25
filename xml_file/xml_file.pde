@@ -95,6 +95,8 @@ void setup() {
   stroke(evening_color);
   drawLineChart(days, "evening");
 
+
+  save("sketch.png");
 }
 
 void drawLineChart(XML[] array, String time) {
