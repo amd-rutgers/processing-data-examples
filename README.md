@@ -6,8 +6,8 @@ This project contains several examples of how to load data into Processing. The 
 1. [Single text file](single_txt_file/)
 2. [Multiple text files](multiple_txt_files/)
 2. [Multiple text files in an array](multiple_txt_files_array/)
-3. Single CSV file
-4. Single XML file
+3. [Single CSV file](csv_file/)
+4. [Single XML file](xml_file/)
 5. Single JSON file
 
 The sample data I'm using is below:
