@@ -8,6 +8,8 @@ Loading spreadsheet data from a `.csv` file.
 Data
 ----------
 
+![spreadsheet](data/spreadsheet.png)
+
 ```csv
 Date,12am-6am,6am-12pm,12pm-6pm,6pm-12am,Total
 03/05/17,0,3,3,2,8
