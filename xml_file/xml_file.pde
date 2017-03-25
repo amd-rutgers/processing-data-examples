@@ -1,9 +1,9 @@
 XML xml;
 
-color c1 = color(255, 0, 255);
-color c2 = color(0, 255, 255);
-color c3 = color(255, 255, 0);
-color c4 = color(255, 0, 0);
+color early_morning_color = color(255, 0, 255);
+color morning_color = color(0, 255, 255);
+color afternoon_color = color(255, 255, 0);
+color evening_color = color(255, 0, 0);
 
 void setup() {
  size(500, 500);
@@ -42,19 +42,19 @@ void setup() {
 
   translate(0, 25);
 
-   fill(c1);
+   fill(early_morning_color);
    rect(0, 0, early_morning_total*unit, 100);
    translate(early_morning_total*unit, 0);
   
-   fill(c2);
+   fill(morning_color);
    rect(0, 0, morning_total*unit, 100);
    translate(morning_total*unit, 0);
   
-   fill(c3);
+   fill(afternoon_color);
    rect(0, 0, afternoon_total*unit, 100);
    translate(afternoon_total*unit, 0);
   
-   fill(c4);
+   fill(evening_color);
    rect(0, 0, evening_total*unit, 100);
    //translate(evening_total*unit, 0);
 
@@ -79,20 +79,20 @@ void setup() {
   noFill();
   strokeWeight(2);
   
-  stroke(c1);
+  stroke(early_morning_color);
   drawLineChart(days, "early_morning");
   
   
   
-  stroke(c2);
+  stroke(morning_color);
   drawLineChart(days, "morning");
     
   
-  stroke(c3);
+  stroke(afternoon_color);
   drawLineChart(days, "afternoon");
 
   
-  stroke(c4);
+  stroke(evening_color);
   drawLineChart(days, "evening");
 
 }
