@@ -23,10 +23,21 @@ void setup() {
  float w = width / num_columns;
  float max_radius = w / 2;
 
+ color[] colors = new color[5];
+
+ colors[0] = color(85,98,112);
+ colors[1] = color(78,205,196);
+ colors[2] = color(199,244,100);
+ colors[3] = color(255,107,107);
+ colors[4] = color(196,77,88);
 
  for(int i = 0; i < num_columns; i++) {
    
    for(int j = 0; j < data[i].length; j++) {
+
+     fill(colors[j]);
+
+
      float r = map(float(data[i][j]), min_input, max_input, 0, max_radius);
      float x = j*w + max_radius;
      float y = i*w + max_radius; 
