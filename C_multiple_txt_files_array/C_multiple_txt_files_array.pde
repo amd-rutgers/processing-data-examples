@@ -5,7 +5,7 @@ void setup() {
  size(500, 500); 
  background(255);
  noStroke();
- fill(250,105,0);
+ fill(167,219,216);
 
  String[][] data = new String[7][];
 
