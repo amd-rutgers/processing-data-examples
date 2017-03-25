@@ -1,9 +1,9 @@
 XML xml;
 
-color early_morning_color = color(255, 0, 255);
-color morning_color = color(0, 255, 255);
-color afternoon_color = color(255, 255, 0);
-color evening_color = color(255, 0, 0);
+color early_morning_color = color(85,98,112);
+color morning_color = color(78,205,196);
+color afternoon_color = color(199,244,100);
+color evening_color = color(255,107,107);
 
 void setup() {
  size(500, 500);

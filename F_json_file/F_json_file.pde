@@ -1,8 +1,8 @@
 JSONArray days;
-color early_morning_color = color(255, 0, 255);
-color morning_color = color(0, 255, 255);
-color afternoon_color = color(255, 255, 0);
-color evening_color = color(255, 0, 0);
+color early_morning_color = color(105,210,231);
+color morning_color = color(167,219,216);
+color afternoon_color = color(224,228,204);
+color evening_color = color(243,134,48);
 
 void setup() {
  size(500, 500);

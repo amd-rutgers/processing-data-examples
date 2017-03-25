@@ -3,12 +3,12 @@ Processing Data Loading Examples
 
 This project contains several examples of how to load data into Processing. The first example shows how to load one-dimensional data from a single text file, the rest show how to load two-dimensional data<sup>1</sup>. 
 
-1. [Single text file](01_single_txt_file/)
-2. [Multiple text files](02_multiple_txt_files/)
-3. [Multiple text files in an array](03_multiple_txt_files_array/)
-4. [Single CSV file](04_csv_file/)
-5. [Single XML file](05_xml_file/)
-6. [Single JSON file](06_json_file/)
+1. [Single text file](A_single_txt_file/)
+2. [Multiple text files](B_multiple_txt_files/)
+3. [Multiple text files in an array](C_multiple_txt_files_array/)
+4. [Single CSV file](D_csv_file/)
+5. [Single XML file](E_xml_file/)
+6. [Single JSON file](F_json_file/)
 
 ## Data
 

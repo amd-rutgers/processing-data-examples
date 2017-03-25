@@ -3,7 +3,7 @@ void setup() {
   size(500, 500);
   background(255);
   noStroke();
-  fill(0);  
+  fill(105,210,231);  
    
   String data[] = loadStrings("data.txt");
  

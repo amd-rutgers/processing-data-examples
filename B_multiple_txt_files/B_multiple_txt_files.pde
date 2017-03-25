@@ -10,7 +10,7 @@ void setup() {
  size(500, 500); 
  background(255);
  noStroke();
- fill(0);
+ fill(243,134,48);
 
  march5 = loadStrings("03-05.txt");
  march6 = loadStrings("03-06.txt");

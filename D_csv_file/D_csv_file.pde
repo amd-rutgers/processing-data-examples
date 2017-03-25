@@ -3,10 +3,10 @@ Table data;
 
 int DOT_SIZE = 50;
 
-color c1 = color(255, 0, 255);
-color c2 = color(0, 255, 255);
-color c3 = color(255, 255, 0);
-color c4 = color(255, 0, 0);
+color c1 = color(85,98,112);
+color c2 = color(78,205,196);
+color c3 = color(199,244,100);
+color c4 = color(255,107,107);
 
 void setup() {
  size(500, 500);
