@@ -5,6 +5,8 @@ Loading spreadsheet data from a `.csv` file.
 
 ![screenshot](sketch.png)
 
+[View source](D_csv_file.pde)
+
 Data
 ----------
 

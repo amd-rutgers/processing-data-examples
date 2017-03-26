@@ -5,6 +5,8 @@ Loading two-dimensional data from multiple `.txt` files, and saving into a two-d
 
 ![screenshot](sketch.png)
 
+[View source](C_multiple_txt_files_array.pde)
+
 Data
 ----
 

@@ -5,6 +5,8 @@ Loading structured data from an `.xml` file.
 
 ![screenshot](sketch.png)
 
+[View source](E_xml_file.pde)
+
 Data
 -----------
 
